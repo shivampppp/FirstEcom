@@ -1,0 +1,27 @@
+div{
+    height:100px;
+    width: 100px;
+    background-color: aqua;
+    border:2px solid black;
+    display:inline-block;
+}
+#box1{
+    position:static;
+    background-image: url("husky.jpg");
+    background-size:cover ;
+}
+#box2{
+    position:relative;
+    top:20px;
+     background-image: url("husky.jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+#box3{
+    position: absolute;
+    top:20px;
+}
+#box4{
+    position: fixed;
+    right:10px;
+}

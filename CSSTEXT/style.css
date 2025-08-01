@@ -1,0 +1,16 @@
+h1{
+   text-align:center;
+   text-decoration: red underline;
+}
+p{
+    text-align:center;
+}
+a{
+    text-decoration:none;
+}
+#one{
+    font-family:arial;
+}
+#two{
+    font-family:'Segoe UI';
+}
